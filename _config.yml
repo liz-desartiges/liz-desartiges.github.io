@@ -1,0 +1,130 @@
+# Site
+repository: liz-desartiges/resume
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Liz de Sartiges
+title: Engineer DevOps
+email: Liz.de-Sartiges@neutralite.org
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  liz-desartiges
+linkedin_username: liz-de-sartiges-a0993a251
+
+# Additional icon links
+additional_links:
+- title: videolan
+  icon: fab fa-gitlab
+  url: https://code.videolan.org/jill
+
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi I'm Liz, I have been a system programmer and now I'm pivoting to DevOps. In a dynamic and open minded environement where I thrive best.
+
+
+content:
+  - title: Skills
+    layout: list
+    border: weak
+    content:
+      - layout: left
+        title: Development
+        description: <b>Python</b>, Golang, HTML 5 & CSS, Git, PHP
+      - layout: left
+        title: Devops
+        description: <b>GitLab</b>, Github, Docker
+      - layout: left
+        title: System Administration
+        description:  <b>GNU/Linux</b>, <b>Debian</b>, Ubuntu, <b>ArchLinux</b>, FreeBSD, OpenBSD
+      - layout: left
+        title: Databases
+        description:  <b>PostgreSQL</b>, MySQL, MongoDB
+      - layout: left
+        title: Others
+        description: C, C++, Embedded Systems
+        
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Diplôme d'Ingénieur
+        sub_title: |
+          Grenoble INP - Ensimag, 
+          Grenoble, France
+        caption: 2018 - 2021
+        description: | # this will include new lines to allow paragraphs
+          Software Development, Embedded Systems, Project Management, Cyber Security, Network Engineering
+      - layout: top-right
+        title: DUT Informatique
+        sub_title: IUT de Valence, Valence, France
+        caption: 2016 - 2018
+        description: | # this will include new lines to allow paragraphs
+          Software Developement, Project Management, System Management, Data bases Management
+      - layout: top-right
+        title: Baccalauréat Scientifique
+        sub_title: Lycée Algoud-Laffemas, Valence, France
+        caption: 2013 - 2016
+        description: | # this will include new lines to allow paragraphs
+          Maths, Physics, Electronics, Mechanics, Web dev, Python
+
+  - title: Experiences
+    layout: list
+    content:
+    - layout: right
+      title: VLC developer
+      sub_title: Videolabs, Paris, France
+      caption: September 2021 - February 2023
+      description: |
+        System programming on Windows and Linux, IPC, C/C++ developement, In charge of the GitLab CI pipelines
+    - layout: right
+      title: Engineering Intern
+      sub_title: Arm, Sophia Antipolis, France
+      caption: Summer 2021
+      description: |
+        Performance analysis of a system, C++ development
+    - layout: right
+      title: Engineering Intern
+      sub_title: Arm, Cambridge, UK
+      caption: Summer 2020
+      description: |
+        Assembly, bare Metal C
+    - layout: right
+      title: Intern
+      sub_title: MT2, Tournon, France
+      caption: Summer 2018
+      description: |
+        C++ development, Qt Framework
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
