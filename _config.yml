@@ -48,6 +48,17 @@ content:
       - layout: left
         title: Others
         description: C, C++, Embedded Systems
+
+  - title: Soft skills
+    layout: list
+    border: weak
+    content:
+      - layout: left
+        title: Languages
+        description: |-
+            French: Native
+            
+            English: Fluent, TOEIC: 980/990
         
   - title: Education
     layout: list
