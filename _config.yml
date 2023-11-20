@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Liz de Sartiges
-title: Engineer DevOps
+title: System programming engineer
 email: Liz.de-Sartiges@neutralite.org
 
 # Dark Mode (true/false/never)
@@ -25,65 +25,10 @@ additional_links:
 
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi I'm Liz, I have been a system programmer and now I'm pivoting to DevOps. In a dynamic and open minded environement where I thrive best.
+  Hi I'm Liz, a system and embedded system programmer looking for a dynamic, diverse and open minded environement where I thrive best.
 
 
 content:
-  - title: Skills
-    layout: list
-    border: weak
-    content:
-      - layout: left
-        title: Development
-        description: <b>Python</b>, Golang, HTML 5 & CSS, Git, PHP
-      - layout: left
-        title: Devops
-        description: <b>GitLab</b>, Github, Docker
-      - layout: left
-        title: System Administration
-        description:  <b>GNU/Linux</b>, <b>Debian</b>, Ubuntu, <b>ArchLinux</b>, FreeBSD, OpenBSD
-      - layout: left
-        title: Databases
-        description:  <b>PostgreSQL</b>, MySQL, MongoDB
-      - layout: left
-        title: Others
-        description: C, C++, Embedded Systems
-
-  - title: Soft skills
-    layout: list
-    border: weak
-    content:
-      - layout: left
-        title: Languages
-        description: |-
-            French: Native
-            
-            English: Fluent, TOEIC: 980/990
-        
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Diplôme d'Ingénieur
-        sub_title: |
-          Grenoble INP - Ensimag, 
-          Grenoble, France
-        caption: 2018 - 2021
-        description: | # this will include new lines to allow paragraphs
-          Software Development, Embedded Systems, Project Management, Cyber Security, Network Engineering
-      - layout: top-right
-        title: DUT Informatique
-        sub_title: IUT de Valence, Valence, France
-        caption: 2016 - 2018
-        description: | # this will include new lines to allow paragraphs
-          Software Developement, Project Management, System Management, Data bases Management
-      - layout: top-right
-        title: Baccalauréat Scientifique
-        sub_title: Lycée Algoud-Laffemas, Valence, France
-        caption: 2013 - 2016
-        description: | # this will include new lines to allow paragraphs
-          Maths, Physics, Electronics, Mechanics, Web dev, Python
-
   - title: Experiences
     layout: list
     content:
@@ -111,6 +56,63 @@ content:
       caption: Summer 2018
       description: |
         C++ development, Qt Framework
+
+  - title: Skills
+    layout: list
+    border: weak
+    content:
+      - layout: left
+        title: Development
+        description: <b>C</b>, <b>C++</b>, Python, Golang, Rust, Java, Git
+      - layout: left
+        title: Devops
+        description: <b>GitLab</b>, Github, Docker
+      - layout: left
+        title: System Administration
+        description:  <b>GNU/Linux</b>, <b>Debian</b>, Ubuntu, <b>ArchLinux</b>, FreeBSD, OpenBSD
+      - layout: left
+        title: Databases
+        description:  <b>PostgreSQL</b>, MySQL, MongoDB
+      - layout: left
+        title: Web dev
+        description: CSS3 & HTML5, PHP
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Diplôme d'Ingénieur
+        sub_title: |
+          Grenoble INP - Ensimag, 
+          Grenoble, France
+        caption: 2018 - 2021
+        description: | # this will include new lines to allow paragraphs
+          Software Development, Embedded Systems, Project Management, Cyber Security, Network Engineering
+      - layout: top-right
+        title: DUT Informatique
+        sub_title: IUT de Valence, Valence, France
+        caption: 2016 - 2018
+        description: | # this will include new lines to allow paragraphs
+          Software Developement, Project Management, System Management, Data bases Management
+      - layout: top-right
+        title: Baccalauréat Scientifique
+        sub_title: Lycée Algoud-Laffemas, Valence, France
+        caption: 2013 - 2016
+        description: | # this will include new lines to allow paragraphs
+          Maths, Physics, Electronics, Mechanics, Web dev, Python
+
+  - title: Soft skills
+    layout: list
+    border: weak
+    content:
+      - layout: left
+        title: Languages
+        description: |-
+            French: Native
+            
+            English: Fluent, TOEIC: 980/990
+        
+
 
 # Footer
 footer_show_references: true
