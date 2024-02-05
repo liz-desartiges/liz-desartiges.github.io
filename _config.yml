@@ -33,6 +33,12 @@ content:
     layout: list
     content:
     - layout: right
+      title: Embedded System Engineering Consultant
+      sub_title: LR Technologies, Versaille, France
+      caption: 2024
+      description: |
+        Engineering Conselling in C, integretion of PrplOS for SoftAtHome
+    - layout: right
       title: VLC developer
       sub_title: Videolabs, Paris, France
       caption: September 2021 - February 2023
